@@ -188,13 +188,13 @@ Kembali
 </div>
 
 <script>
-const totalFoto = 200; // sesuaikan jumlah foto
+const totalFoto = 158; // sesuaikan jumlah foto
 
 const gallery = document.getElementById("gallery");
 
 for(let i = 1; i <= totalFoto; i++){
     let img = document.createElement("img");
-    img.src = "images/foto" + i + ".jpeg";
+    img.src = "images/foto" + i + ".jpg";
     img.loading = "lazy";
     img.style.animationDelay = (i * 0.03) + "s";
     img.onclick = function(){
